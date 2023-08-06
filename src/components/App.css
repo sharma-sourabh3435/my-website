@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .navbar li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar li a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-me {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-me h2 {
+    margin-bottom: 10px;
+  }
+
+  .navbar li:last-child a {
+    background-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .logo {
+    height: 25px; /* Set the desired height of the logo */
+    width: auto; /* Adjust width to maintain aspect ratio */
+    margin-right: 9px; /* Optional: Add some spacing between the logo and text */
+  }
+
+  .my-image {
+    max-height: 60%;
+    max-width: 100%;
+    border-radius: 50%; /* Optional: If you want a rounded image */
+    /* Add any other styling you want for the image */
+  }
+
+  .dark-mode-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dark-mode-button.active {
+    background-color: #555; /* You can choose a slightly lighter color for active dark mode */
+  }
+
+  .dark-mode {
+    background-color: #222; /* Choose a dark background color */
+    color: #fff; /* Choose a light text color */
+  }
